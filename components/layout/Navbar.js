@@ -225,6 +225,9 @@ class Navbar extends React.Component {
               align-items: center;
               justify-content: space-between;
             }
+            #nav .content .logo {
+              cursor: pointer;
+            }
             #nav .content .logo h1 {
               color: #ffe63c;
               text-transform: uppercase;
