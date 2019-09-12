@@ -2,9 +2,9 @@ import Product from './Product';
 
 const Products = () => {
   const images = [
-    'static/images/p.png',
-    'static/images/p.png',
-    'static/images/p.png'
+    'static/images/p2.png',
+    'static/images/p3.png',
+    'static/images/p4.png'
   ];
   return (
     <section id='products'>

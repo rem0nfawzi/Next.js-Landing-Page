@@ -11,13 +11,13 @@ const Blog = () => {
         <div className='posts'>
           <Post
             title='post title'
-            thumbnail='static/images/p.png'
-            excerpt='lorem'
+            thumbnail='static/images/p3.png'
+            excerpt='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolores nostrum accusantium'
           />
           <Post
             title='post title'
-            thumbnail='static/images/p.png'
-            excerpt='lorem'
+            thumbnail='static/images/p4.png'
+            excerpt='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolores nostrum accusantium'
           />
         </div>
         <div className='btn-wrap'>

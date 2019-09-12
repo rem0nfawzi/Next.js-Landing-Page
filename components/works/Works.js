@@ -14,13 +14,13 @@ const Works = () => {
           <div className='row items-3'>
             <Project bg='static/images/p.png' first={true} />
             <div className='col'>
-              <Project bg='static/images/p.png' />
-              <Project bg='static/images/p.png' />
+              <Project bg='static/images/p2.png' />
+              <Project bg='static/images/p3.png' />
             </div>
           </div>
 
           <div className='row'>
-            <Project bg='static/images/p.png' first={true} />
+            <Project bg='static/images/p4.png' first={true} />
           </div>
         </div>
 
