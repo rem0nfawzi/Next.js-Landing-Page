@@ -29,7 +29,7 @@ const Statistics = () => {
           #statistics .stas {
             display: flex;
             flex-basis: 60%;
-            background-image: url('static/images/home-bg.png');
+            background-image: url('static/images/home-bg.webp');
             background-size: cover;
             background-position: center;
             position: relative;

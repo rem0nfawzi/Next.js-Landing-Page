@@ -11,7 +11,7 @@ const Packages = () => {
     <section
       id='packages'
       className='dark-bg overlay-bg'
-      style={{ backgroundImage: 'url(/static/images/home-bg.png)' }}
+      style={{ backgroundImage: 'url(/static/images/home-bg.webp)' }}
     >
       <div className='container'>
         <h1 className='main-title '>our packages</h1>

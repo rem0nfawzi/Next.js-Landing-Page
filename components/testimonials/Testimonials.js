@@ -28,7 +28,7 @@ const Testimonials = () => {
     <section
       id='testimonials'
       className='overlay-bg'
-      style={{ backgroundImage: `url('static/images/home-bg.png')` }}
+      style={{ backgroundImage: `url('static/images/home-bg.webp')` }}
     >
       <Head>
         <link rel='stylesheet' href='/static/css/slick.min.css' />

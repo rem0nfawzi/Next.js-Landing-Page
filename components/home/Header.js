@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <Parallax
       blur={3}
-      bgImage={'static/images/home-bg.png'}
+      bgImage={'static/images/home-bg.webp'}
       bgImageAlt='the cat'
       strength={600}
     >
