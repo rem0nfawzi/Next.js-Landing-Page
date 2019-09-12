@@ -17,21 +17,25 @@ $lightGrey: #727272;
 @font-face {
   src: url('../fonts/Exo2-Black.ttf');
   font-family: Exo_Black;
+  font-display: swap;
 }
 
 @font-face {
   src: url('../fonts/WorkSans-Black.ttf');
   font-family: Worksans_Black;
+  font-display: swap;
 }
 
 @font-face {
   src: url('../fonts/WorkSans-Regular.ttf');
   font-family: Worksans_Regular;
+  font-display: swap;
 }
 
 @font-face {
   src: url('../fonts/WorkSans-Light.ttf');
   font-family: Worksans_Light;
+  font-display: swap;
 }
 
 /** GLOBAL STYLES **/
@@ -58,7 +62,7 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
   text-transform: capitalize;
-  font-family: Worksans_Black, "Arial", sans-serif;
+  font-family: Worksans_Black, sans-serif;
 }
 
 p,
@@ -67,7 +71,7 @@ input,
 label,
 li {
   color: $lightGrey;
-  font-family: Worksans_Regular;
+  font-family: Worksans_Regular, sans-serif;
 }
 
 a {
@@ -110,7 +114,7 @@ ul {
   border: 0;
   outline: 0;
   cursor: pointer;
-  font-family: Worksans_Regular;
+  font-family: Worksans_Regular, sans-serif;
   font-size: 14px;
 }
 
