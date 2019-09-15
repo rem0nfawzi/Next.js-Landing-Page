@@ -47,7 +47,7 @@ const Post = ({ title, thumbnail, excerpt }) => {
             opacity: 0;
             transition: all 0.2s ease-in-out;
           }
-          .post .img:hover:before {
+          .post:hover .img:before {
             opacity: 0.3;
           }
           .post .description {

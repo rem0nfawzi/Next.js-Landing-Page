@@ -1,31 +1,35 @@
 /** FONTS **/
 @font-face {
   src: url("../fonts/Exo2-Black.ttf");
-  font-family: Exo_Black; }
+  font-family: Exo_Black;
+  font-display: swap; }
 @font-face {
   src: url("../fonts/WorkSans-Black.ttf");
-  font-family: Worksans_Black; }
+  font-family: Worksans_Black;
+  font-display: swap; }
 @font-face {
   src: url("../fonts/WorkSans-Regular.ttf");
-  font-family: Worksans_Regular; }
+  font-family: Worksans_Regular;
+  font-display: swap; }
 @font-face {
   src: url("../fonts/WorkSans-Light.ttf");
-  font-family: Worksans_Light; }
+  font-family: Worksans_Light;
+  font-display: swap; }
 /** GLOBAL STYLES **/
-/* line 38, global.scss */
+/* line 42, global.scss */
 * {
   box-sizing: border-box; }
 
-/* line 42, global.scss */
+/* line 46, global.scss */
 body {
   margin: 0; }
 
-/* line 46, global.scss */
+/* line 50, global.scss */
 section {
   padding-top: 150px;
   padding-bottom: 150px; }
 
-/* line 51, global.scss */
+/* line 55, global.scss */
 h1,
 h2,
 h3,
@@ -36,40 +40,40 @@ h6 {
   margin-top: 0;
   margin-bottom: 0;
   text-transform: capitalize;
-  font-family: Worksans_Black; }
+  font-family: Worksans_Black, sans-serif; }
 
-/* line 64, global.scss */
+/* line 68, global.scss */
 p,
 a,
 input,
 label,
 li {
   color: #727272;
-  font-family: Worksans_Regular; }
+  font-family: Worksans_Regular, sans-serif; }
 
-/* line 73, global.scss */
+/* line 77, global.scss */
 a {
   word-spacing: 1px;
   text-decoration: none; }
 
-/* line 78, global.scss */
+/* line 82, global.scss */
 p {
   margin-top: 0;
   margin-bottom: 0; }
 
-/* line 83, global.scss */
+/* line 87, global.scss */
 ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0; }
 
-/* line 90, global.scss */
+/* line 94, global.scss */
 .container {
   padding-left: 100px;
   padding-right: 100px; }
 
-/* line 95, global.scss */
+/* line 99, global.scss */
 .overlay-bg:before {
   content: '';
   position: absolute;
@@ -80,7 +84,7 @@ ul {
   background-color: #141c24;
   opacity: 0.98; }
 
-/* line 106, global.scss */
+/* line 110, global.scss */
 .btn {
   border-radius: 50px;
   padding: 25px 50px;
@@ -88,14 +92,14 @@ ul {
   border: 0;
   outline: 0;
   cursor: pointer;
-  font-family: Worksans_Regular;
+  font-family: Worksans_Regular, sans-serif;
   font-size: 14px; }
 
-/* line 117, global.scss */
+/* line 121, global.scss */
 .btn.bold {
   font-weight: bold; }
 
-/* line 121, global.scss */
+/* line 125, global.scss */
 .btn.second {
   background-color: #ffe63c;
   color: #141c24;
@@ -105,12 +109,12 @@ ul {
   -o-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out; }
-  /* line 127, global.scss */
+  /* line 131, global.scss */
   .btn.second:hover {
     background-color: transparent;
     color: #ffe63c; }
 
-/* line 133, global.scss */
+/* line 137, global.scss */
 .btn.first {
   background-color: #141c24;
   color: #fff;
@@ -120,67 +124,67 @@ ul {
   -o-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out; }
-  /* line 139, global.scss */
+  /* line 143, global.scss */
   .btn.first:hover {
     background-color: transparent;
     color: #141c24; }
 
-/* line 145, global.scss */
+/* line 149, global.scss */
 .main-title {
   font-size: 40px;
   text-transform: uppercase;
   text-align: center; }
 
-/* line 151, global.scss */
+/* line 155, global.scss */
 .main-slogan {
   margin-bottom: 80px;
   text-align: center;
   text-transform: uppercase;
   font-size: 13px; }
 
-/* line 158, global.scss */
+/* line 162, global.scss */
 .dark-bg {
   background-color: #141c24; }
 
-/* line 162, global.scss */
+/* line 166, global.scss */
 .second-bg {
   background-color: #ffe63c; }
 
-/* line 166, global.scss */
+/* line 170, global.scss */
 .text-second {
   color: #ffe63c; }
 
-/* line 170, global.scss */
+/* line 174, global.scss */
 .text-dark {
   color: #141c24; }
 
-/* line 174, global.scss */
+/* line 178, global.scss */
 .btn-wrap {
   margin-top: 80px;
   text-align: center; }
 
 /** Form inputs **/
-/* line 181, global.scss */
+/* line 185, global.scss */
 form .two-inputs {
   display: flex; }
 
-/* line 187, global.scss */
+/* line 191, global.scss */
 form .two-inputs .input-wrap {
   flex-basis: 50%; }
 
-/* line 191, global.scss */
+/* line 195, global.scss */
 form .two-inputs .input-wrap:first-of-type {
   padding-right: 15px; }
 
-/* line 195, global.scss */
+/* line 199, global.scss */
 form .two-inputs .input-wrap:last-of-type {
   padding-left: 15px; }
 
-/* line 199, global.scss */
+/* line 203, global.scss */
 form .input-wrap {
   margin-bottom: 30px; }
 
-/* line 203, global.scss */
+/* line 207, global.scss */
 form .input-wrap input,
 form .input-wrap textarea {
   width: 100%;
@@ -194,44 +198,44 @@ form .input-wrap textarea {
   transition: all 0.2s ease-in-out;
   border-radius: 5px; }
 
-/* line 217, global.scss */
+/* line 221, global.scss */
 form .input-wrap input.capt {
   text-transform: capitalize; }
 
-/* line 221, global.scss */
+/* line 225, global.scss */
 form .input-wrap textarea {
   min-height: 100px;
   resize: vertical; }
 
-/* line 226, global.scss */
+/* line 230, global.scss */
 form .input-wrap input:focus,
 form .input-wrap textarea:focus {
   background-color: #11171d; }
 
 @media (max-width: 700px) {
-  /* line 232, global.scss */
+  /* line 236, global.scss */
   form .two-inputs {
     flex-direction: column; }
 
-  /* line 236, global.scss */
+  /* line 240, global.scss */
   form .two-inputs .input-wrap:first-of-type {
     padding-right: 0; }
 
-  /* line 240, global.scss */
+  /* line 244, global.scss */
   form .two-inputs .input-wrap:last-of-type {
     padding-left: 0; } }
-/* line 245, global.scss */
+/* line 249, global.scss */
 .link-hov {
   transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out; }
-  /* line 252, global.scss */
+  /* line 256, global.scss */
   .link-hov:hover {
     color: #727272; }
 
-/* line 257, global.scss */
+/* line 261, global.scss */
 .more-btn {
   color: #141c24;
   text-transform: capitalize;
@@ -240,7 +244,7 @@ form .input-wrap textarea:focus {
   position: relative;
   z-index: 1;
   font-weight: bold; }
-  /* line 266, global.scss */
+  /* line 270, global.scss */
   .more-btn:before {
     content: '';
     position: absolute;
@@ -252,21 +256,21 @@ form .input-wrap textarea:focus {
     width: 50%;
     z-index: -1;
     transition: all .1s ease-in-out; }
-  /* line 279, global.scss */
+  /* line 283, global.scss */
   .more-btn:hover::before {
     width: 100%; }
 
 @media (max-width: 1045px) {
-  /* line 285, global.scss */
+  /* line 289, global.scss */
   .container {
     padding-left: 50px;
     padding-right: 50px; } }
 @media (max-width: 600px) {
-  /* line 292, global.scss */
+  /* line 296, global.scss */
   .container {
     padding-left: 20px;
     padding-right: 20px; } }
 @media (max-width: 450px) {
-  /* line 299, global.scss */
+  /* line 303, global.scss */
   .main-title {
     font-size: 32px; } }

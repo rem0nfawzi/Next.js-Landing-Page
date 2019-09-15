@@ -89,7 +89,11 @@ const Product = ({ images, title, excerpt }) => {
         </Slider>
       </div>
       <div className='content'>
-        <h1>{title}</h1>
+        <Link href='/'>
+          <a>
+            <h1>{title}</h1>
+          </a>
+        </Link>
         <p>{excerpt} ...</p>
         <Link href='/'>
           <a className='more-btn'>read more</a>

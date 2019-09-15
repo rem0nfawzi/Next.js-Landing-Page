@@ -23,7 +23,7 @@ const Header = () => {
             <h1 className={`title ${loaded && 'loaded'}`}>
               <span>a</span>
               <span>n</span>
-              <span>d</span>
+              <span>z</span>
               <span className='text-second'>a</span>
             </h1>
             <p className='slogan'>
@@ -78,10 +78,10 @@ const Header = () => {
           #header .content .slogan {
             color: #fff;
             text-transform: uppercase;
-            font-size: 18px;
-            letter-spacing: 1px;
+            font-size: 16px;
+            letter-spacing: 3px;
             font-family: Worksans_Light;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
           }
           @media (max-width: 638px) {
             #header .content .title {
