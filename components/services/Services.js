@@ -9,38 +9,38 @@ const Services = () => {
         </p>
         <div className='row'>
           <Service
-            icon='/static/images/ui-ux.svg'
+            icon='static/images/responsive.svg'
+            title='Responsive design'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
+            ratione pariatur praesentium nulla ea voluptatibus'
+          />
+          <Service
+            icon='static/images/creative.svg'
+            title='creative ideas'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
+            ratione pariatur praesentium nulla ea voluptatibus'
+          />
+          <Service
+            icon='static/images/seo.svg'
+            title='marketing'
+            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
+            ratione pariatur praesentium nulla ea voluptatibus'
+          />
+          <Service
+            icon='static/images/style.svg'
             title='UI/UX development'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
             ratione pariatur praesentium nulla ea voluptatibus'
           />
           <Service
-            icon='/static/images/ui-ux.svg'
-            title='UI/UX development'
+            icon='static/images/fast.svg'
+            title='high performance'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
             ratione pariatur praesentium nulla ea voluptatibus'
           />
           <Service
-            icon='/static/images/ui-ux.svg'
-            title='UI/UX development'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
-            ratione pariatur praesentium nulla ea voluptatibus'
-          />
-          <Service
-            icon='/static/images/ui-ux.svg'
-            title='UI/UX development'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
-            ratione pariatur praesentium nulla ea voluptatibus'
-          />
-          <Service
-            icon='/static/images/ui-ux.svg'
-            title='UI/UX development'
-            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
-            ratione pariatur praesentium nulla ea voluptatibus'
-          />
-          <Service
-            icon='/static/images/ui-ux.svg'
-            title='UI/UX development'
+            icon='static/images/code.svg'
+            title='clean code'
             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quae sit
             ratione pariatur praesentium nulla ea voluptatibus'
           />

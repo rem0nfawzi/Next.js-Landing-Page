@@ -87,7 +87,7 @@ class Navbar extends React.Component {
             <div className='content'>
               <div className='logo'>
                 <Link to='header' smooth={true} duration={500}>
-                  <h1>anza</h1>
+                  <h1>anda</h1>
                 </Link>
               </div>
 

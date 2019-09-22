@@ -29,7 +29,7 @@ class About extends React.Component {
               <img src='static/images/about.svg' alt='anda' />
             </div>
             <div className='text'>
-              <h1 className='main-title'>We are anza</h1>
+              <h1 className='main-title'>We are ANDA</h1>
               <p>
                 <strong>Anda</strong> is a creative agency provides all
                 technical services, we're in the market since 2009, we're always

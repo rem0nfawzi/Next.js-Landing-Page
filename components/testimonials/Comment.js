@@ -17,13 +17,13 @@ const Comment = () => {
           .comment-wrap {
             padding-left: 40px;
             padding-right: 40px;
-            padding-top: 30px;
+            padding-top: 40px;
             outline: 0;
           }
           .comment-wrap .comment {
-            padding: 50px 40px 40px 40px;
+            padding: 60px 40px 40px 40px;
             background-color: #fff;
-            border-radius: 20px;
+            border-radius: 10px;
             text-align: center;
             position: relative;
             cursor: grab;
@@ -57,13 +57,13 @@ const Comment = () => {
             right: 0;
             margin-left: auto;
             margin-right: auto;
-            top: -30px;
-            width: 60px;
-            height: 60px;
+            top: -40px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
             background-size: cover;
             background-position: center;
-            border: 2px solid #fff;
+            border: 4px solid #fff;
           }
           @media (max-width: 950px) {
             .comment-wrap {

@@ -23,7 +23,7 @@ const Header = () => {
             <h1 className={`title ${loaded && 'loaded'}`}>
               <span>a</span>
               <span>n</span>
-              <span>z</span>
+              <span>d</span>
               <span className='text-second'>a</span>
             </h1>
             <p className='slogan'>
