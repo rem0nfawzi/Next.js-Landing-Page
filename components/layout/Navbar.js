@@ -24,7 +24,7 @@ class Navbar extends React.Component {
       this.setState({
         scrolledOffset: window.pageYOffset
       });
-    }, 200);
+    });
   };
   componentDidMount() {
     window.addEventListener('scroll', () => {
