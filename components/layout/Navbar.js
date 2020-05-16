@@ -10,21 +10,16 @@ class Navbar extends React.Component {
     smallScreen: false
   };
   detectScrollDirection = () => {
-    let down = false;
-    if (window.pageYOffset > this.state.scrolledOffset) {
-      down = true;
-    } else {
-      down = false;
-    }
+    const down = window.pageYOffset > this.state.scrolledOffset;
+    
     this.setState({
       scrollingDown: down
     });
 
-    setTimeout(() => {
-      this.setState({
-        scrolledOffset: window.pageYOffset
-      });
+    this.setState({
+      scrolledOffset: window.pageYOffset
     });
+    
   };
   componentDidMount() {
     window.addEventListener('scroll', () => {
